@@ -1,0 +1,20 @@
+.lato-font{
+    font-family: 'Lato', sans-serif;
+}
+#slide1{
+    background:url(images/banner1.png), linear-gradient(180deg, #121212a8 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+#slide2{
+    background-image: url(images/banner2.png), linear-gradient(180deg, #121212a8 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+#slide3{
+    background-image: url(images/banner3.png), linear-gradient(180deg, #121212a8 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+#slide4{
+    background-image: url(images/banner4.png), linear-gradient(180deg, #121212a8 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+#slide1, #slide2, #slide3, #slide4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
