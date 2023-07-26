@@ -18,3 +18,25 @@
     background-repeat: no-repeat;
     background-blend-mode: multiply;
 }
+
+/* Why choose Us divider */
+.custom_divider::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #121212;
+    left: 0;
+    top: 50%;
+    bottom: 50%;
+}
+.custom_divider2::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #121212;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+}
